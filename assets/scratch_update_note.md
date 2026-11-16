@@ -6,7 +6,7 @@ We thank all reviewers for their comments. We uploaded a revised PDF, with chang
 * **Schedule -> Pipeline:** the method is described as a periodic pipeline
 * **T_sus Experiment:** Section 6.3 adds the sustained period experiemnt, to evaluate long-term execution improvement.
 * **Success rate:** Section 6 now reports deployment precision (Q4) instead of 16-bit.
-* **Mobile control validation:** the phone computes every action chunk that  controls the robot in LIBERO enviroment.
+* **Mobile control validation:** in Appendix C, the phone computes every action chunk that controls the robot in the LIBERO environment.
 * **Implementation details:** the appendix adds pseudocode, profiling details and extensive experiments.
 
 
@@ -27,7 +27,7 @@ We thank all reviewers for their comments. We uploaded a revised PDF, with chang
 
 - **W1 (real robot):** Appendix C adds a phone-in-the-loop evaluation on Snapdragon 8 Elite.
 - **W2 (atom definition):** Appendix E gives the atom template and the atom counts.
-- **W3 ("scheduler"):** the method is described as a periodic pipeline. （except title)
+- **W3 ("scheduler"):** the method is described as a periodic pipeline. (except title)
 - **Q1 / Q2 (other models and VLA families):** Appendix I reports SmolVLM2 and OpenVLA.
 - **Q3 (CPU):** answered in our reply, but didn't add to the paper.
 - **Q4 (single cut):** Appendix D gives the DP algorithm and experiments for exactly $k$ cuts, $k\in [1,10)$
